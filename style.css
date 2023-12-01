@@ -1,0 +1,219 @@
+  .card {
+    border: 35em;
+    box-sizing: 1000px;
+    display: flex;
+    justify-content: center;
+    width: 0 auto; /* Lebar box */
+    height: 350px; /* Tinggi box */
+    margin: 0 auto; /* Jarak antara box dengan elemen lain */
+    font-family: Hanken Grotesk; 
+    padding: 0 auto;
+    box-sizing: border-box;
+    
+}
+
+.result {
+    width: 300px; /* Lebar box */
+    height: 430px; /* Tinggi box */
+    background: hsl(252,100%,67%);background: linear-gradient(184deg,hsl(252,100%,67%) 0%, hsl(241,81%,54%) 80%);
+    border-radius: 20px;
+    padding-left: -30PX;
+    margin-left: 20px auto;
+    box-shadow: 7px 10px 17px -1px rgba(0,0,0,0.23);
+    text-align: center;
+    justify-content: column;
+}
+
+.title1 {
+    font-size: 15px;
+    color:hsl(221, 100%, 96%, 0.664);
+    padding-left: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.number {
+    font-size: 60px;
+    color:hsl(221, 100%, 96%);
+    padding-left: 30px;
+    text-align: center;
+    margin-bottom: 5px;
+    z-index: 1;
+}
+.circle {
+    width: 150px;
+    height: 150px;
+    background: hsla(256,72%,46%,1);
+    background: linear-gradient(180deg,hsla(256,72%,46%,1) 0%, hsla(241,72%,46%,0) 80%);
+    margin: 8% auto;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 30%;
+}
+.number1 {
+    position: absolute;
+    width: inherit;
+    height: auto;
+    top: 50%;
+    transform: translateY(-140%);
+    text-align: center;
+}
+
+p {
+    font-size: 10px;
+    color:hsl(221, 100%, 96%, 0.664);
+    padding-left: 30px;
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.great {
+    font-size: 40px;
+    color:hsl(221, 100%, 96%);
+    padding-left: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+h4{
+    font-size: 16px;
+    color:hsla(222, 100%, 96%, 0.664);
+    padding-left: 30px;
+    padding-top: 5px;
+    text-align: center;
+    width: 220px;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: 250;
+    margin-right: 10px;
+    padding-left: 55px;
+
+}
+
+.summary{
+    width: 300px; /* Lebar box */
+    height: 430px; /* Tinggi box */
+    background-color: hsl(0, 0%, 100%); /* Warna latar belakang box */
+    border-radius: 0 20px 20px 0;
+    margin-top: 0px;
+    font-family: Hanken Grotesk; 
+    font-weight:500, 700, 800;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    box-shadow: 7px 10px 17px -1px rgba(0,0,0,0.23);
+}
+
+ul{
+    padding-top: 25px;
+    list-style-type: none;
+
+}
+
+.title2 {
+    font-size: 15px;
+    color:hsl(224, 30%, 27%);
+    padding-left: 30px;
+    text-align: left;
+    margin-top: 30px;
+}
+span{
+    padding-left: 10px;
+    
+}
+.R{
+    padding: 6px 0px 6px 10px;
+    background-color: hsla(0, 100%, 67%, 0.048) ;
+    color: hsl(0, 100%, 67%);
+    border-radius: 6px;
+    margin-right: 30px;
+    margin-left: -10px;
+
+}
+
+.m {
+    padding: 6px 0px 6px 10px;
+    background-color: hsla(39, 100%, 56%, 0.075);
+    color: hsl(39, 100%, 56%);
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-left: -10px;
+}
+
+.v {
+    padding: 6px 0px 6px 10px;
+    background-color: hsla(166, 100%, 37%, 0.041);
+    color: hsl(166, 100%, 37%);
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-left: -10px;
+}
+
+.vi{
+    padding: 6px 60px 6px 10px;
+    background-color: hsla(234, 85%, 45%, 0.062);
+    color: hsl(234, 85%, 45%);
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-left: -10px;
+}
+.num{
+    font-size: 12px;
+    font-style:normal;
+    padding-left: 30px;
+    color:  hsl(224, 30%, 27%);
+    font-weight: bold;
+    
+    
+    
+}
+button{
+    margin-top: 50px;
+    padding: 15px 90px 15px 90px;
+    margin-left: 20px;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    font-family: Hanken Grotesk;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+
+}
+
+button:hover{
+    background: hsl(252,100%,67%);background: linear-gradient(184deg,hsl(252,100%,67%) 0%, hsl(241,81%,54%) 80%);
+}
+
+.A {
+    font-size: 12px;
+    font-style:normal;
+    padding-left: 10px;
+    color:  hsla(224, 30%, 27%, 0.356);
+    font-weight: bold;
+
+}
+li {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+img, span {
+    vertical-align: middle;
+    justify-content: space-around;
+
+
+}
+
+
+
+
+
+
+
